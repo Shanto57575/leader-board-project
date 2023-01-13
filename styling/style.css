@@ -203,13 +203,12 @@ footer{
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
-    .icon,ul > img{
+    /* .icon,ul > img{
         display: none;
-    }
-    .header{
+    } */
+    .header,footer{
         justify-content: center;
         align-items: center;
     }
@@ -227,7 +226,7 @@ footer{
     .course{
       margin-bottom: 20px;
     }
-    footer{
+    /* footer{
         display: none;
-    }
+    } */
 }
