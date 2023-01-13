@@ -205,12 +205,16 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-    /* .icon,ul > img{
-        display: none;
-    } */
     .header,footer{
+
         justify-content: center;
         align-items: center;
+    }
+    .navbar .icon{
+        display: none;
+    }
+    .nav-info ul img{
+        display: none;
     }
     .section-tittle{
         text-align: center;
@@ -222,11 +226,12 @@ footer{
     .blog{
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+    .blog .blog-info{
+        text-align: center;
     }
     .course{
       margin-bottom: 20px;
     }
-    /* footer{
-        display: none;
-    } */
 }
